@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Chatting Room</title>
+    <script type="text/javascript" src="./../common/js/jQuery-1.11.3.js"></script>
+    <script type="text/javascript">
+        var websocket = null;
+        var str = '';
+
+        //判断当前浏览器是否支持WebSocket
+        if('WebSocket' in window){
+            websocket = new WebSocket("ws:" + getWSRootPath() + "/chattingRoomWebSocket");
+        }
+        else{
+            alert('Not support websocket')
+        }
+        //连接发生错误的回调方法
+        websocket.onerror = function () {
+            console.log("WebSocket连接发生错误");
+        };
+
+        //连接成功建立的回调方法
+        websocket.onopen = function () {
+            console.log("WebSocket连接成功");
+        }
+        //接收到消息的回调方法
+        websocket.onmessage = function (event) {
+//            setMessageInnerHTML(event.data);
+            console.log("现在有的：" + event.data);
+            str = '<p>' + event.data + '</p>';
+            $("#areaTitle").append(str);
+        }
+
+        //连接关闭的回调方法
+        websocket.onclose = function () {
+            console.log("WebSocket连接关闭");
+        }
+
+        //监听窗口关闭事件，当窗口关闭时，主动去关闭websocket连接，防止连接还没断开就关闭窗口，server端会抛异常。
+        window.onbeforeunload = function () {
+            closeWebSocket();
+        }
+
+        //关闭WebSocket连接
+        function closeWebSocket() {
+            websocket.close();
+        }
+
+
+        function getWSRootPath() {
+            var curWwwPath = window.document.location.href;
+            var pathName = window.document.location.pathname;
+            var pos = curWwwPath.indexOf(pathName);
+            var localhostPaht = curWwwPath.substring(curWwwPath.indexOf("//"), pos);
+            var projectName = pathName
+                .substring(0, pathName.substr(1).indexOf('/') + 1);
+            return (localhostPaht + projectName);
+        }
+        
+        function sendButton() {
+            var message = $("#message").val();
+            websocket.send(message);
+            $("#message").val('');
+        }
+
+        $(document).keydown(function(event) {
+            if (event == 13) {
+                sendButton();
+            }
+        })
+    </script>
+</head>
+<body>
+    <div>
+        <input type="text" id="message"/>
+        <a href="javascript:void(0)" style="border: 1px solid" onclick="sendButton()" id="sentText">发送</a>
+        <!--<a href="" onclick="">点击</a>-->
+        <div id="chatArea">
+            <div id="areaTitle">这里是聊天内容</div>
+        </div>
+    </div>
+</body>
+</html>
