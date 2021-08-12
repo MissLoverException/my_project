@@ -1,4 +1,4 @@
-package com.missloverexception.project.toolsCollection;
+package com.missloverexception.project.toolsCollection.controller;
 
 /**
  * @Auther: Chang.hy

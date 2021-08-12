@@ -5,6 +5,8 @@ public class DemoTest {
 
     private String name;
 
+    private boolean isValid;
+
     public Integer getId() {
         return id;
     }
@@ -21,4 +23,11 @@ public class DemoTest {
         this.name = name == null ? null : name.trim();
     }
 
+    public boolean isValid() {
+        return isValid;
+    }
+
+    public void setValid(boolean valid) {
+        isValid = valid;
+    }
 }

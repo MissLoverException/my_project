@@ -4,6 +4,7 @@
   <resultMap id="BaseResultMap" type="com.missloverexception.project.demo.model.DemoTest" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="is_valid" property="isValid" jdbcType="BIT" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -64,7 +65,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, name
+    id, name, is_valid
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.missloverexception.project.demo.model.DemoTestExample" >
     select
