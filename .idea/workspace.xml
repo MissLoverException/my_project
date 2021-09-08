@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a26815-4308-4e0f-8ec8-5cbbff73edea" name="Default" comment="8.12">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/chapter6/MyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/chapter6/ThreadDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/chapter6/ThreadDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/chapter6/ThreadDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="a9a26815-4308-4e0f-8ec8-5cbbff73edea" name="Default" comment="多线程">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/test/TestTryCatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +90,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo3">
+  <component name="RunManager" selected="Application.TestTryCatch">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -158,13 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.chapter6.ThreadDemo1" />
+    <configuration name="TestTryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.test.TestTryCatch" />
       <module name="my_project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.missloverexception.project.interview.chapter6.*" />
+          <option name="PATTERN" value="com.missloverexception.project.interview.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,18 +452,18 @@
       <item itemvalue="Spring Boot.MyProjectApplication" />
       <item itemvalue="Tomcat Server.tomcat" />
       <item itemvalue="Application.TestController" />
-      <item itemvalue="Application.ThreadDemo1" />
       <item itemvalue="Application.ThreadDemo2" />
       <item itemvalue="Application.MyTask" />
       <item itemvalue="Application.ThreadDemo3" />
+      <item itemvalue="Application.TestTryCatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTryCatch" />
         <item itemvalue="Application.ThreadDemo3" />
         <item itemvalue="Application.MyTask" />
         <item itemvalue="Application.ThreadDemo2" />
         <item itemvalue="Application.TestController" />
-        <item itemvalue="Application.ThreadDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +496,7 @@
       <workItem from="1628762843953" duration="2481000" />
       <workItem from="1629336815426" duration="1017000" />
       <workItem from="1629900284098" duration="73000" />
-      <workItem from="1629940830756" duration="14367000" />
+      <workItem from="1629940830756" duration="16618000" />
     </task>
     <task id="LOCAL-00001" summary="8.12">
       <created>1628763281441</created>
@@ -509,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628763281442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="多线程">
+      <created>1631035320341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631035320341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,29 +532,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="8.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.12" />
+    <MESSAGE value="多线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1631027223255">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875@0.25.1440.875" timestamp="1631027223255" />
-    <state width="1396" height="228" key="GridCell.Tab.0.bottom" timestamp="1631027793640">
+    <state width="1396" height="228" key="GridCell.Tab.0.bottom" timestamp="1631035636251">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1631027793640" />
-    <state width="1396" height="228" key="GridCell.Tab.0.center" timestamp="1631027793639">
+    <state width="1396" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1631035636251" />
+    <state width="1396" height="228" key="GridCell.Tab.0.center" timestamp="1631035636251">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1631027793639" />
-    <state width="1396" height="228" key="GridCell.Tab.0.left" timestamp="1631027793639">
+    <state width="1396" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1631035636251" />
+    <state width="1396" height="228" key="GridCell.Tab.0.left" timestamp="1631035636250">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1631027793639" />
-    <state width="1396" height="228" key="GridCell.Tab.0.right" timestamp="1631027793640">
+    <state width="1396" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1631035636250" />
+    <state width="1396" height="228" key="GridCell.Tab.0.right" timestamp="1631035636251">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1631027793640" />
+    <state width="1396" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1631035636251" />
     <state width="1396" height="216" key="GridCell.Tab.1.bottom" timestamp="1631023441619">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -572,10 +576,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="229" y="57" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1628764180673" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1628763771255">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1631035326401">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1628763771255" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1631035326401" />
     <state x="511" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628763139971">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
