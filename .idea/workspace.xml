@@ -19,11 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9a26815-4308-4e0f-8ec8-5cbbff73edea" name="Default" comment="trycatch测试">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/chapter4/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/chapter4/TestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a9a26815-4308-4e0f-8ec8-5cbbff73edea" name="Default" comment="ArrayList自定义">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/chapter4/UserOverride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/sort/FastSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/test/GCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/test/SpiralOutPutArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/test/StreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/chapter4/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/missloverexception/project/interview/chapter4/TestList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +97,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyArrayList">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -129,13 +133,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.chapter4.MyArrayList" />
+    <configuration name="FastSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.sort.FastSort" />
       <module name="my_project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.missloverexception.project.interview.chapter4.*" />
+          <option name="PATTERN" value="com.missloverexception.project.interview.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.chapter6.MyTask" />
+    <configuration name="GCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.test.GCTest" />
       <module name="my_project" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.missloverexception.project.interview.chapter6.*" />
+          <option name="PATTERN" value="com.missloverexception.project.interview.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.chapter4.TestList" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.sort.MergeSort" />
       <module name="my_project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.missloverexception.project.interview.chapter4.*" />
+          <option name="PATTERN" value="com.missloverexception.project.interview.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,8 +175,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.test.TestTryCatch" />
+    <configuration name="SpiralOutPutArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.test.SpiralOutPutArray" />
       <module name="my_project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -185,13 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.chapter6.ThreadDemo3" />
+    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.missloverexception.project.interview.test.StreamTest" />
       <module name="my_project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.missloverexception.project.interview.chapter6.*" />
+          <option name="PATTERN" value="com.missloverexception.project.interview.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,21 +456,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MyTask" />
-      <item itemvalue="Application.ThreadDemo3" />
-      <item itemvalue="Application.TestTryCatch" />
+      <item itemvalue="Application.SpiralOutPutArray" />
+      <item itemvalue="Application.GCTest" />
       <item itemvalue="Spring Boot.MyProjectApplication" />
       <item itemvalue="Tomcat Server.tomcat" />
-      <item itemvalue="Application.TestList" />
-      <item itemvalue="Application.MyArrayList" />
+      <item itemvalue="Application.StreamTest" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.FastSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyArrayList" />
-        <item itemvalue="Application.TestList" />
-        <item itemvalue="Application.TestTryCatch" />
-        <item itemvalue="Application.ThreadDemo3" />
-        <item itemvalue="Application.MyTask" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.FastSort" />
+        <item itemvalue="Application.StreamTest" />
+        <item itemvalue="Application.GCTest" />
+        <item itemvalue="Application.SpiralOutPutArray" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +504,15 @@
       <workItem from="1629336815426" duration="1017000" />
       <workItem from="1629900284098" duration="73000" />
       <workItem from="1629940830756" duration="24466000" />
-      <workItem from="1631535786446" duration="16129000" />
+      <workItem from="1631535786446" duration="20398000" />
+      <workItem from="1632209403338" duration="715000" />
+      <workItem from="1632274787176" duration="597000" />
+      <workItem from="1632673679689" duration="1505000" />
+      <workItem from="1632839064369" duration="13873000" />
+      <workItem from="1633335492038" duration="1610000" />
+      <workItem from="1633494283262" duration="561000" />
+      <workItem from="1634263032020" duration="3391000" />
+      <workItem from="1635062581712" duration="34390000" />
     </task>
     <task id="LOCAL-00001" summary="8.12">
       <created>1628763281441</created>
@@ -523,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631070645001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ArrayList自定义">
+      <created>1631890119221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631890119221</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,65 +564,70 @@
     <MESSAGE value="8.12" />
     <MESSAGE value="多线程" />
     <MESSAGE value="trycatch测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="trycatch测试" />
+    <MESSAGE value="ArrayList自定义" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList自定义" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1631027223255">
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635306987662">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875@0.25.1440.875" timestamp="1631027223255" />
-    <state width="1396" height="216" key="GridCell.Tab.0.bottom" timestamp="1631890061469">
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1635306987662" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1631892915494">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="216" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1631890061469" />
-    <state width="1396" height="216" key="GridCell.Tab.0.center" timestamp="1631890061468">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875@0.25.1440.875" timestamp="1631892915494" />
+    <state width="1396" height="196" key="GridCell.Tab.0.bottom" timestamp="1635493628205">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="216" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1631890061468" />
-    <state width="1396" height="216" key="GridCell.Tab.0.left" timestamp="1631890061468">
+    <state width="1396" height="196" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1635493628205" />
+    <state width="1396" height="196" key="GridCell.Tab.0.center" timestamp="1635493628204">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="216" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1631890061468" />
-    <state width="1396" height="216" key="GridCell.Tab.0.right" timestamp="1631890061469">
+    <state width="1396" height="196" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1635493628204" />
+    <state width="1396" height="196" key="GridCell.Tab.0.left" timestamp="1635493628203">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="216" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1631890061469" />
-    <state width="1396" height="216" key="GridCell.Tab.1.bottom" timestamp="1631890061470">
+    <state width="1396" height="196" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1635493628203" />
+    <state width="1396" height="196" key="GridCell.Tab.0.right" timestamp="1635493628204">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="216" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1631890061470" />
-    <state width="1396" height="216" key="GridCell.Tab.1.center" timestamp="1631890061470">
+    <state width="1396" height="196" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1635493628204" />
+    <state width="1396" height="229" key="GridCell.Tab.1.bottom" timestamp="1635491803428">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="216" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1631890061470" />
-    <state width="1396" height="216" key="GridCell.Tab.1.left" timestamp="1631890061469">
+    <state width="1396" height="229" key="GridCell.Tab.1.bottom/0.25.1440.875@0.25.1440.875" timestamp="1635491803428" />
+    <state width="1396" height="229" key="GridCell.Tab.1.center" timestamp="1635491803427">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="216" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1631890061469" />
-    <state width="1396" height="216" key="GridCell.Tab.1.right" timestamp="1631890061470">
+    <state width="1396" height="229" key="GridCell.Tab.1.center/0.25.1440.875@0.25.1440.875" timestamp="1635491803427" />
+    <state width="1396" height="229" key="GridCell.Tab.1.left" timestamp="1635491803427">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state width="1396" height="216" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1631890061470" />
+    <state width="1396" height="229" key="GridCell.Tab.1.left/0.25.1440.875@0.25.1440.875" timestamp="1635491803427" />
+    <state width="1396" height="229" key="GridCell.Tab.1.right" timestamp="1635491803428">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1396" height="229" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1635491803427" />
     <state x="229" y="57" key="SettingsEditor" timestamp="1628764180673">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="229" y="57" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1628764180673" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1631095552053">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1631890122006">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1631095552053" />
-    <state x="511" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631890092544">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1631890122006" />
+    <state x="511" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635492420755">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="511" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1631890092544" />
-    <state x="421" y="217" width="597" height="548" key="find.popup" timestamp="1631154501356">
+    <state x="511" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1635492420755" />
+    <state x="421" y="217" width="597" height="548" key="find.popup" timestamp="1635410542477">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="421" y="217" width="597" height="548" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1631154501356" />
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1631777928335">
+    <state x="421" y="217" width="597" height="548" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1635410542477" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1632885589067">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1631777928335" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1632885589067" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,11 +639,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="sb.length() " />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_project$TestController.ic" NAME="TestController Coverage Results" MODIFIED="1630920346081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
